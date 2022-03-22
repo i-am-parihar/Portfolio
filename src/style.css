@@ -304,7 +304,7 @@ html {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 5em !important;
 }
 
 @media (max-width: 767px) {
@@ -470,6 +470,28 @@ html {
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
 
+@media (max-width: 767px) {
+  .project-card {
+    padding-top: 10px !important;
+    padding-bottom: 50px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    height: auto !important;
+  }
+}
+@media (max-width: 767px) {
+  .project-card-view {
+    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+    color: white !important;
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 100% !important;
+    width: 100%;
+    text-align:left;
+  }
+}
+
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -550,8 +572,14 @@ html {
   display: flex;
 }
 .view{
-  margin-left: 40px;
-  padding: 50px;
+  /* margin-left: 1000px; */
+  padding: 35px;
+}
+@media(max-width:767px){
+  .view{
+    margin-left: 1px;
+    padding: 19px;
+  }
 }
 .proj-icons{
   font-size: 4em !important;
@@ -584,7 +612,21 @@ html {
 
 @media (max-width: 767px) {
   .tech-icons {
-    margin: 10px !important;
+    margin: 15px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .award-para {
+    margin: 13px !important;
+    padding: 70px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .award-cont {
+    margin-bottom: 0.4em;
+    font-size: 7vw;
   }
 }
 

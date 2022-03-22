@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
+  AiFillMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -39,6 +40,16 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
+            <li className="social-icons">
+                <a
+                  href="paritoshparihar4@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "white" }}
+                >
+                  <AiFillMail />
+                </a>
+              </li>
           </ul>
         </Col>
       </Row>

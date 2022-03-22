@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
+import Awards from "./Awards";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
@@ -55,7 +55,7 @@ function About() {
         <h1 className="project-heading">
           <strong className="purple">Awards</strong>
         </h1>
-        <Github />
+        <Awards />
       </Container>
     </Container>
   );

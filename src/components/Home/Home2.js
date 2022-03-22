@@ -1,13 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/photo-modified.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+// import {
+//   AiFillGithub,
+//   AiFillMail,
+// } from "react-icons/ai";
+// import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -26,16 +25,6 @@ function Home2() {
                 <b className="purple"> Javascript </b>
               </i>
               <br />
-              {/* <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
-              <br /> */}
               <br />
               I have collaborated with different teams and built projects with <b className="purple">Node.js</b> and
               <i>
@@ -56,7 +45,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
@@ -83,9 +72,19 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="paritoshparihar4@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillMail />
+                </a>
+              </li>
             </ul>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );

@@ -57,7 +57,7 @@ function Projects() {
           Store Page with Cart Page as a sidebar for Easy Navigation
           </Card.Text>
           <Card.Text style={{ textAlign: "justify"  , lineHeight:"0" }}>
-          User-Friendly Add to Cart and Checkout Page
+          Also Add to Cart and Checkout Page
           </Card.Text>
           <Card.Text style={{ textAlign: "justify" }}>
           Tech Stack :
@@ -87,6 +87,12 @@ function Projects() {
           <Button variant="primary" href="https://instacart-app.netlify.app/" target="_blank">
           <BiLinkExternal /> &nbsp;
           View Project
+          </Button>
+        </Col>
+        <Col className="view">
+          <Button variant="primary" href="https://github.com/Maddy-O/Instacart_MVC" target="_blank">
+          <BiLinkExternal /> &nbsp;
+          View Code
           </Button>
         </Col>
         
@@ -119,7 +125,7 @@ function Projects() {
           Well-designed Home Page and Product Page
           </Card.Text>
           <Card.Text style={{ textAlign: "justify"  , lineHeight:"0" }}>
-          User-Friendly Add to Cart and Checkout Page
+          Also Add to Cart and Checkout Page
           </Card.Text>
           <Card.Text style={{ textAlign: "justify" }}>
           Tech Stack :
@@ -140,6 +146,12 @@ function Projects() {
           <Button variant="primary" href="https://uboricproject.vercel.app/index.html" target="_blank">
           <BiLinkExternal /> &nbsp;
           View Project
+          </Button>
+        </Col>
+        <Col className="view">
+          <Button variant="primary" href="https://github.com/i-am-parihar/Project-" target="_blank">
+          <BiLinkExternal /> &nbsp;
+          View Code
           </Button>
         </Col>
         

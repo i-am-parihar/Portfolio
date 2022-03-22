@@ -1,9 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
+import About from "../About/About";
 import Particle from "../Particle";
+import Projects from "../Projects/Projects";
+import ResumeNew from "../Resume/ResumeNew";
 import Home2 from "./Home2";
 import Type from "./Type";
+
 
 function Home() {
   return (
@@ -25,6 +29,8 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+             
+
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
@@ -34,8 +40,13 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <About/>
+      <Projects/>
+      <ResumeNew/>
     </section>
   );
 }
 
-export default Home;
+
+
+export default Home ;
