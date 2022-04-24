@@ -7,15 +7,18 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Paritosh_fw14_209.pdf";
+// import pdf from "../../Assets/../Assets/Paritosh_fw14_209.pdf";
+import pdf from "../../Assets/../Assets/paritosh.pdf"
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 
 const resumeLink =
-  "https://raw.githubusercontent.com/i-am-parihar/portfolio/main/src/Assets/Paritosh_fw14_209.pdf";
+"https://raw.githubusercontent.com/i-am-parihar/portfolio/main/src/Assets/paritosh.pdf"
+//   "https://raw.githubusercontent.com/i-am-parihar/portfolio/main/src/Assets/Paritosh_fw14_209.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);

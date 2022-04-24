@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import instacart from "../../Assets/Projects/instacart_image1.png";
 import Uboric from "../../Assets/Projects/Uboric.png";
+import gaana from "../../Assets/Projects/gaana.png"
 
 
 import Card from "react-bootstrap/Card";
@@ -14,6 +15,7 @@ import {
   DiMongodb,
   DiHtml5,
   DiCss3,
+  DiReact,
 } from "react-icons/di";
 import {
   SiExpress,
@@ -36,7 +38,68 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
 
-        {/* First Project */}
+          {/* First Project */}
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" , display:"flex"}}>
+          <Col md={7} className="project-card">
+          <Card className="project-card-view">
+          <Card.Img variant="top" src={gaana} alt="card-img" />
+
+          <Card.Body>
+          <Card.Title>Gaana</Card.Title>
+          <Card.Text style={{ textAlign: "justify"}}>
+          A web application that provides music streaming services.
+          </Card.Text>
+          <Card.Text style={{ textAlign: "justify" }}>
+          Features :
+          </Card.Text>
+          <Card.Text style={{ textAlign: "justify"  , lineHeight:"0"  }}>
+          Sign-in/Sign-up 
+          </Card.Text>
+          <Card.Text style={{ textAlign: "justify" }}>
+          Searching features as per user choice.
+          </Card.Text>
+          <Card.Text style={{ textAlign: "justify"  , lineHeight:"0" }}>
+          User-Friendly Home Page and easy navigation feature.
+          </Card.Text>
+          <Card.Text style={{ textAlign: "justify" }}>
+          Tech Stack :
+          </Card.Text>
+
+        <Row style={{ whiteSpace: "10px" }}>
+          <Col xs={4} md={2} className="first-proj-icons">
+          <span> < DiReact/><span><h6>React</h6></span></span> 
+          </Col>
+          <Col xs={4} md={2} className="first-proj-icons">
+          <span> < DiNodejs /><span><h6>Node</h6></span></span>
+          </Col>
+          <Col xs={4} md={2} className="first-proj-icons">
+          <span> <SiExpress /><span><h6>Express</h6></span></span>
+          </Col>
+          <Col xs={4} md={2} className="first-proj-icons">
+          <span> <DiMongodb /><span><h6>Mongodb</h6></span></span>
+          </Col>
+
+        <Col className="view">
+          <Button variant="primary" href="http://gaana-app.vercel.app/" target="_blank">
+          <BiLinkExternal /> &nbsp;
+          View Project
+          </Button>
+        </Col>
+        <Col className="view">
+          <Button variant="primary" href="https://github.com/gautamverma095/gaanaApp" target="_blank">
+          <BiLinkExternal /> &nbsp;
+          View Code
+          </Button>
+        </Col>
+        
+        </Row> 
+
+        </Card.Body>
+        </Card>
+        </Col>
+        </Row>
+
+        {/* Second Project */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" , display:"flex"}}>
           <Col md={7} className="project-card">
           <Card className="project-card-view">
@@ -104,7 +167,7 @@ function Projects() {
         </Row>
         
 
-        {/* Second Project */}
+        {/* Third Project */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" , display:"flex"}}>
           <Col md={7} className="project-card">
           <Card className="project-card-view">
